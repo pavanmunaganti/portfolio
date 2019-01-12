@@ -1,0 +1,138 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: #263959;
+}
+
+/* side bar stylings */
+.nav_bar{
+    background: #667D9B;
+    position: fixed;
+    left: 10%;
+    top:50%;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 90%;
+    padding: 20px;
+    box-shadow: 1px 1px 23px -9px #000000;
+}
+.profile_image{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url(./images/profile.jpg);
+    background-position: top;
+    background-size: cover;
+    transform: rotate(90deg);
+}
+.name{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.occupation{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #263959;
+}
+.details{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+.navigation ul{
+    margin: 20px 0px;
+}
+.navigation ul li{
+    background: #263959;
+    padding: 5px;
+    text-decoration: none;
+    width: 120px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    box-shadow: 1px 1px 23px -9px #000000;
+}
+.navigation ul li a{
+    color: white;
+    text-decoration: none;
+}
+.social_media{
+    margin: 10px 0px;
+}
+
+
+.content>div{
+    width: 50%;
+    height: 500px;
+    padding: 20px;
+    margin: 15px 149px 20px 0px;
+    background: #efefef;
+    float: right;
+    box-shadow: 1px 1px 23px -9px #000000;
+}
+.aboutme .title{
+    font-size: 28px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+.aboutme_data{
+    margin-top: 40px;
+    height: 300px;
+    background: white;
+    color: black;
+    padding: 30px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    box-shadow: 1px 1px 23px -9px #000000;
+}
+.skills div p{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin: 10px 0px 3px 0px;
+}
+.skills div{
+    margin: 15px 0px;
+}
+.front_end div img{
+    margin: 20px;
+    width: 40px;
+}
+.back_end div img{
+    margin: 20px;
+    width: 80px;
+}
+.development_tools div img{
+    margin: 20px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+

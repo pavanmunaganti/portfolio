@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pavan munaganti</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+                
+              }, 600, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+                console.log(hash);
+              });
+            } // End if
+          });
+        });
+    </script>
+</head>
+<body >
+    <div class="container">
+        <div class="nav_bar">
+            <center>
+                <div class="profile_image"></div>
+                <p class="name">Pavan Munaganti</p>
+                <p class="occupation">I'm a full-stack web developer,<br>UI/UX designer,<br>Digital Artist.</p>
+                <hr>
+                <div class="details">
+                    <table>
+                        <tr>
+                            <td><b>Date of birth:</b></td>
+                            <td>12/12/1998</td>
+                        </tr>
+                        <tr>
+                            <td><b>Email:</b></td>
+                            <td>munaganti.pavan@gmail.com</td>
+                        </tr>
+                    </table>
+                </div>
+                <hr>
+                <div class="navigation">
+                    <ul>
+                        <li><a href="#aboutme">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <img src="./Images/skills/socialmedia.svg" alt="" class="social_media">
+            </center>
+            
+        </div>
+        <div class="content">
+            <div class="aboutme" id="aboutme">
+                <p class="title">About Me</p>
+                <hr>
+                <p class="aboutme_data">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro recusandae quisquam fugiat ducimus officiis, unde asperiores totam, rem numquam ut ipsam sed quidem optio sit atque ex neque eius possimus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nihil facilis quae, similique temporibus dolores et! Eum, animi! Odit voluptas laborum totam maiores nulla at quo voluptatem non vero officia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum eaque voluptatibus quos excepturi id quis neque temporibus minima, eveniet molestias dolores omnis illo, dolore facilis quibusdam cum provident iste quidem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae totam adipisci odio, voluptatum, aliquid ut, consequatur nemo deserunt quasi magni at animi ipsam, iusto ullam id et iure rerum consectetur!</p>
+            </div>
+            <div class="skills" id="skills">
+               <div class="front_end">
+                   <p >Front-end skills</p>
+                   <hr>
+                    <div class="skills_logos">
+                        <img src="./Images/skills/htm5.svg" alt="html5">
+                        <img src="./Images/skills/css3.svg" alt="css3">
+                        <img src="./Images/skills/javascript.svg" alt="javascript">
+                        <img src="./Images/skills/jquery.svg" alt="jquery">
+                    </div>
+               </div>
+               <div class="back_end">
+                   <p >Back-end skills</p>
+                   <hr>
+                    <div class="skills_logo">
+                        <img src="./Images/skills/php.svg" alt="php">
+                        <img src="./Images/skills/nodejs.svg" alt="node.js">
+                        <img src="./Images/skills/mysql.svg" alt="mysql">
+                    </div>
+               </div>
+               <div class="development_tools">
+                   <p >Development tools</p>
+                   <hr>
+                   <div class="skills_logo">
+                       <img src="./Images/skills/git.svg" alt="git">
+                       <img src="./Images/skills/github.svg" alt="github">
+                       <img src="./Images/skills/ps.svg" alt="photoshop">
+                       <img src="./Images/skills/npm.svg" alt="npm"> 
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

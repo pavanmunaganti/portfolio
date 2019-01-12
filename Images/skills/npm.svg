@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70.51" height="29" viewBox="0 0 70.51 29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cb3837;
+      }
+    </style>
+  </defs>
+  <path id="npm-original-wordmark" class="cls-1" d="M2,38.5H72.51V63.355H37.255V67.5H21.584V63.355H2ZM5.918,59.215h7.836V46.785h3.918v12.43h3.918V42.645H5.918ZM25.5,42.645V63.355h7.836v-4.14h7.836V42.645Zm7.836,4.145h3.918V55.07H33.337Zm11.754-4.145v16.57h7.836V46.785h3.918v12.43h3.918V46.785H64.68v12.43H68.6V42.645Z" transform="translate(-2 -38.5)"/>
+</svg>
