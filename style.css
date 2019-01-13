@@ -30,7 +30,7 @@ html,body{
     height: 135px;
     border-radius: 50%;
     overflow: hidden;
-    background-image: url(./images/profile.jpg);
+    background-image: url(./Images/profile.jpg);
     background-position: top;
     background-size: cover;
     transform: rotate(90deg);
