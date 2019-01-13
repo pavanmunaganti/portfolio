@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="246.667" height="222" viewBox="0 0 246.667 222">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #263959;
+      }
+    </style>
+  </defs>
+  <g id="school" transform="translate(0 -3)">
+    <path id="Path_39" data-name="Path 39" class="cls-1" d="M18.881,3.12,15,10.356V67.911H130.111l3.8-7.285Z" transform="translate(108.333 0.867)"/>
+    <path id="Path_40" data-name="Path 40" class="cls-1" d="M115.567,3.12l3.881,7.236V67.911H4.337l-3.8-7.285Z" transform="translate(3.886 0.867)"/>
+    <path id="Path_41" data-name="Path 41" class="cls-1" d="M115.567,75.791l3.881-7.236V11H4.337l-3.8,7.285Z" transform="translate(3.886 57.778)"/>
+    <path id="Path_42" data-name="Path 42" class="cls-1" d="M18.881,75.791,15,68.556V11H130.111l3.8,7.285Z" transform="translate(108.333 57.778)"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="8.222" cy="8.222" r="8.222" transform="translate(230.222 60.556)"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-1" cx="8.222" cy="8.222" r="8.222" transform="translate(0 60.556)"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-1" cx="8.222" cy="8.222" r="8.222" transform="translate(115.111 118.111)"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" class="cls-1" cx="8.222" cy="8.222" r="8.222" transform="translate(115.111 3)"/>
+    <g id="Group_13" data-name="Group 13" transform="translate(49.333 96.347)">
+      <path id="Path_43" data-name="Path 43" class="cls-1" d="M91.232,48.236a16.384,16.384,0,0,1-2.1.872,23.445,23.445,0,0,1-18.237.008,15.784,15.784,0,0,1-2.13-.888L6,16.852V50.958c0,22.7,33.127,41.111,74,41.111s74-18.41,74-41.111V16.852Z" transform="translate(-6 3.695)"/>
+      <path id="Path_44" data-name="Path 44" class="cls-1" d="M27,22.575v87.542a8.222,8.222,0,0,0,16.444,0V14.353Z" transform="translate(145.667 -14.353)"/>
+    </g>
+    <path id="Path_45" data-name="Path 45" class="cls-1" d="M58.889,40.444c0,9.086-16.444,32.889-16.444,32.889S26,49.53,26,40.444a16.444,16.444,0,1,1,32.889,0Z" transform="translate(187.778 151.667)"/>
+  </g>
+</svg>
