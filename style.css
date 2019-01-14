@@ -4,26 +4,25 @@
 *{
     margin: 0px;
     padding: 0px;
-    color: white;
+    
     font-family: 'Open Sans', sans-serif;
 }
 html,body{
     height: 100%;
     width: 100%;
-    background: #263959;
+    background: #242424;
 }
 
 /* side bar stylings */
 .nav_bar{
-    background: #667D9B;
-    position: fixed;
-    left: 10%;
-    top:50%;
-    transform: translateY(-50%);
-    width: 300px;
-    height: 90%;
-    padding: 20px;
-    box-shadow: 1px 1px 23px -9px #000000;
+    background:#4c4c4c;
+}
+.profile_outline{
+    width: 140px;
+    height: 140px;
+    padding: 4px 2px 0px 2px;
+    border-radius: 50%;
+    background: #f9a825;
 }
 .profile_image{
     width: 135px;
@@ -36,30 +35,42 @@ html,body{
     transform: rotate(90deg);
 }
 .name{
+    color: #ffd95a;
     font-weight: bolder;
     font-size: 30px;
+    margin-top: 5px;
 }
 .occupation{
     font-family: 'Roboto', sans-serif;
+    color: white;
     font-size: 14px;
     padding: 10px 0px;
+    opacity: 0.7;
 }
 hr{
     display: block;
     height: 1px;
     border: 0;
-    border-top: 2px solid #263959;
+    border-top: 2px solid #242424;
 }
 .details{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     padding: 10px 0px;
 }
+.details table tr td b{
+    color: white;
+}
+.details table tr td{
+    color: white;
+    opacity: 0.7;
+    
+}
 .navigation ul{
     margin: 20px 0px;
 }
 .navigation ul li{
-    background: #263959;
+    background: #f9a825;
     padding: 5px;
     text-decoration: none;
     width: 120px;
@@ -78,13 +89,14 @@ hr{
     margin: 10px 0px;
 }
 
-
+.content{
+    margin-left: 37%;
+}
 .content>div{
-    width: 50%;
+    width: 80%;
     padding: 20px;
-    margin: 15px 149px 20px 0px;
+    margin: 15px 0px 20px 0px;
     background: #efefef;
-    float: right;
     box-shadow: 1px 1px 23px -9px #000000;
 }
 .aboutme .title{
@@ -94,44 +106,56 @@ hr{
     text-align: center;
 }
 .aboutme_data{
-    margin-top: 40px;
+    margin-top: 15px;
     background: white;
     color: black;
     padding: 30px;
     text-align: justify;
+    text-indent: 40px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     box-shadow: 1px 1px 23px -9px #000000;
 }
+
+
+
 .skills div p{
     font-size: 20px;
     color: black;
+    text-align: center;
     font-weight: bold;
     margin: 10px 0px 3px 0px;
 }
-.skills div{
+.skills>div{
+    padding: 20px;
     margin: 15px 0px;
+    background: #ffd95ad9;
+    box-shadow: 1px 1px 23px -9px #000000;
+}
+.skills_logos{
+    width: fit-content;
+    padding: 20px 0px 0px 0px;
+    margin: 0 auto;
 }
 .front_end div img{
-    margin: 20px;
+    margin: 0px 30px;
     width: 40px;
 }
 .back_end div img{
-    margin: 20px;
+    margin: 0px 30px;
     width: 80px;
 }
 .development_tools div img{
-    margin: 20px;
+    margin: 0px 30px;
     width: 50px;
 }
-
 
 .education_container{
     display: flex;
     flex-flow: row;
 }
 .timeline{
-    margin-left: 50px;
+    margin-left: 10%;
     border-left: 4px solid  #263959;
 }
 .pointer{
@@ -142,6 +166,16 @@ hr{
     border-radius: 15px;
     background: white;
     box-shadow: 1px 1px 23px -9px #000000;
+}
+.pointer span{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    display: block;
+    border-radius: 7.5px;
+    background: #f9a825;
+    margin: 0px auto;
+    top: 7px;
 }
 #main_pointer{
    width: 50px;
@@ -163,13 +197,13 @@ hr{
     margin-top: 10px;
 }
 #pointer1{
-    top: 115px;
+    top: 6%;
 }
 #pointer2{
-    top: 315px;
+    top: 35%;
 }
 #pointer3{
-    top: 515px;
+    top: 61%;
 }
 .education_details{
     width: 70%;
@@ -178,7 +212,6 @@ hr{
     background: white;
     padding: 10px;
     margin: 40px 0px 40px 0px;
-    width: 100%;
     box-shadow: 1px 1px 23px -9px #000000;
 }
 .education_details div p{
@@ -194,8 +227,153 @@ hr{
 
 
 
+.work_container>p{
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    margin: 20px 0px 3px 0px;
+    text-align: center;
+}
+.work{
+    display: inline-block;
+    width: 300px;
+    margin: 10px 15px;
+    background: white;
+    box-shadow: 1px 1px 23px -9px #000000;
+}
+.work img{
+    display: block;
+    margin: 0px auto;
+    width: 300px;
+}
+.work .title{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 3px 0px;
+    color: black;
+    text-align: center;
+}
+.catageory{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 0px;
+    color: black;
+    text-align: center;
+    opacity: 0.5;
+}
+.web_projects div img{
+    width: 300px;
+    margin: 10px;
+}
+
+.contactme>p{
+    font-size: 24px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+.mailme{
+    background: #ffd95ad9;
+    padding: 20px;
+    box-shadow: 1px 1px 23px -9px #000000;
+}
+.contactme .mailme p{
+    font-family: ;
+    text-align: center;
+    padding: 10px 0px;
+}
+.link  a{
+    background: white;
+    padding: 8px;
+    margin: 0 10px;
+    box-shadow: 1px 1px 23px -9px #000000;
+    text-decoration: none;
+    color: black;
+}
+.link a:hover{
+    background: #242424;
+    color: white;
+}
+/* desktop's version */
+@media only screen and (min-width: 900px){
+    .nav_bar{
+        position: fixed;
+        left: 10%;
+        top:50%;
+        transform: translateY(-50%);
+        width: 22%;
+        height: 90%;
+        padding: 20px;
+    }
+}
 
 
+@media only screen and (max-width: 1333px) {
+    .name{
+        font-size: 25px;
+    }
+    .work{
+        display: block;
+        margin: 10px auto;
+    }
+}
+
+@media only screen and (max-width: 1137px) {
+    .name{
+        font-size: 20px;
+    }
+    .work{
+        display: block;
+        margin: 10px auto;
+    }
+}
+@media only screen and (max-width: 899px) {
+    .nav_bar{
+        position: static;
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .content{
+        margin: 0px;
+    }
+    .content>div{
+        width: 80%;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
+    .education_details div{
+        padding: 4px;
+    }
+    .work{
+        width: 280px;
+    }
+    .work img{
+        width: 280px;
+    
+    }
+}
+@media only screen and (max-width: 632px){
+    .aboutme_data{
+        padding: 10px;
+    }
+    .skills_logos img{
+        display: block;
+    }
+    .front_end div img{
+        margin: 30px 30px;
+        width: 40px;
+    }
+    .back_end div img{
+        margin: 30px 30px;
+        width: 80px;
+    }
+    .development_tools div img{
+        margin: 30px 30px;
+        width: 50px;
+    }
+
+}
 
 
 

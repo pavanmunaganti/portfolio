@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pavan munaganti</title>
     <link rel="stylesheet" href="./style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -38,14 +39,14 @@
     <div class="container">
         <div class="nav_bar">
             <center>
-                <div class="profile_image"></div>
+                <div class="profile_outline"><div class="profile_image"></div></div>
                 <p class="name">Pavan Munaganti</p>
                 <p class="occupation">I'm a full-stack web developer,<br>UI/UX designer,<br>Digital Artist.</p>
                 <hr>
                 <div class="details">
                     <table>
                         <tr>
-                            <td><b>Date of birth:</b></td>
+                            <td><b>DOB:</b></td>
                             <td>12/12/1998</td>
                         </tr>
                         <tr>
@@ -60,7 +61,7 @@
                         <li><a href="#aboutme">About</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="#education_container">Education</a></li>
-                        <li><a href="#">Work</a></li>
+                        <li><a href="#work">Work</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
@@ -71,8 +72,10 @@
         <div class="content">
             <div class="aboutme" id="aboutme">
                 <p class="title">About Me</p>
-                <hr>
-                <p class="aboutme_data">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro recusandae quisquam fugiat ducimus officiis, unde asperiores totam, rem numquam ut ipsam sed quidem optio sit atque ex neque eius possimus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero nihil facilis quae, similique temporibus dolores et! Eum, animi! Odit voluptas laborum totam maiores nulla at quo voluptatem non vero officia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum eaque voluptatibus quos excepturi id quis neque temporibus minima, eveniet molestias dolores omnis illo, dolore facilis quibusdam cum provident iste quidem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae totam adipisci odio, voluptatum, aliquid ut, consequatur nemo deserunt quasi magni at animi ipsam, iusto ullam id et iure rerum consectetur!</p>
+             
+                <div class="aboutme_data"><p><b>HI! I'm pavan munaganti</b>, a Full-stack web designer, developer, UI/UX designer and a digital artist. I'm pursuing my graduation in computer science and engineering at Mallareddy college of engineering and technology, Hyderabad. I strongly believe in autodidactism, that's how I learnt and became proficient in web development.</p><br>
+                <p>I love exploring new technologies. when I came to know about AI and machine learning I was very excited and interested in it. oftentimes I dream about how AI and machine learning can make lives easy and how I can use those technologies to build something useful to humanity.  At the age of 17, I've set my target to become an AI and machine learning expert. And I'm currently working on it.</p>
+            </div>
             </div>
             <div class="skills" id="skills">
                <div class="front_end">
@@ -88,7 +91,7 @@
                <div class="back_end">
                    <p >Back-end skills</p>
                    <hr>
-                    <div class="skills_logo">
+                    <div class="skills_logos">
                         <img src="./Images/skills/php.svg" alt="php">
                         <img src="./Images/skills/nodejs.svg" alt="node.js">
                         <img src="./Images/skills/mysql.svg" alt="mysql">
@@ -97,7 +100,7 @@
                <div class="development_tools">
                    <p >Development tools</p>
                    <hr>
-                   <div class="skills_logo">
+                   <div class="skills_logos">
                        <img src="./Images/skills/git.svg" alt="git">
                        <img src="./Images/skills/github.svg" alt="github">
                        <img src="./Images/skills/ps.svg" alt="photoshop">
@@ -108,27 +111,54 @@
             <div class="education_container" id="education_container">
                 <div class="timeline">
                     <div class="pointer" id="main_pointer"><img src="./Images/school.svg" alt=""></div>
-                    <div class="pointer" id="pointer1"></div>
-                    <div class="pointer" id="pointer2"></div>
-                    <div class="pointer" id="pointer3"></div>
+                    <div class="pointer" id="pointer1"><span></span></div>
+                    <div class="pointer" id="pointer2"><span></span></div>
+                    <div class="pointer" id="pointer3"><span></span></div>
                 </div>
                 <div class="education_details">
                     <p class="title">Education</p>
                     <div class="btech">
                         <p>Mallareddy college of engineering and technology</p>
                         <p>2016-2020</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta totam modi fugit cumque perferendis culpa earum quos rerum. Maxime quia tempora quisquam nulla tempore reprehenderit. Id dolor magnam magni, totam.</p>
+                        <p>Currently, I'm pursuing my graduation in computer science and engineering. Till now I have obtained 80% of aggregate alongside some knowledge as a full-stack developer and knowledge about real-time project management and deployment. </p>
                     </div>
                     <div class="inter">
                         <p>Narayana jr college</p>
                         <p>2016</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta totam modi fugit cumque perferendis culpa earum quos rerum. Maxime quia tempora quisquam nulla tempore reprehenderit. Id dolor magnam magni, totam.</p>
+                        <p>I've completed my intermediate in MPC at hyderabad under Telangana Board of Intermediate Education with an aggregate of 93.4. </p>
                     </div>
                     <div class="schooling">
                         <p>Ratnam high school</p>
                         <p>2014</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta totam modi fugit cumque perferendis culpa earum quos rerum. Maxime quia tempora quisquam nulla tempore reprehenderit. Id dolor magnam magni, totam.</p>
+                        <p>I have completed my 10th standard under Andhrapradesh state board-SSC with an aggregate of 90%. </p>
                     </div>
+                </div>
+            </div>
+            <div class="work_container" id="work">
+                    <p>Recent works</p>
+             
+                        <div class="work">
+                            <img src="./work/artwork/01.png" alt="">
+                            <p class="title">sunset</p>
+                            <p class="catageory">digital art</p>
+                        </div>
+                        <div class="work">
+                            <img src="./work/artwork/03.png" alt="">
+                            <p class="title">stranger things</p>
+                            <p class="catageory">digital art</p>
+                        </div> 
+                                  
+                    <div class="work">
+                        <a href="https://pavanmunaganti.github.io/portfolio/"><img src="./work/projects/portfolio.png" alt=""></a>
+                        <p class="title">Portfolio page</p>
+                        <p class="catageory">web design</p>
+                    </div>
+            </div>
+            <div class="contactme" id="contact">
+                <p><b>Contact me!</b></p>
+                <div class="mailme">
+                    <p> munaganti.pavan@gmail.com</p>
+                    <P class="link"><a href="mailto:munaganti.pavan@gmail.com?Subject=from%20portfolio">click here </a>to mail me! </P>
                 </div>
             </div>
         </div>
