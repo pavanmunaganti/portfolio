@@ -276,23 +276,40 @@ hr{
     padding: 20px;
     box-shadow: 1px 1px 23px -9px #000000;
 }
-.contactme .mailme p{
-    font-family: ;
-    text-align: center;
-    padding: 10px 0px;
+
+.mailme form {
+    width: 50%;
+    margin: 0 auto;
 }
-.link  a{
+.mailme form input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    margin: 5px;
+}
+.mailme form input[type=submit]{
+    width: 103%;
+    font-size: 16px;
     background: white;
-    padding: 8px;
-    margin: 0 10px;
+    padding: 10px;
+    font-weight: bold;
     box-shadow: 1px 1px 23px -9px #000000;
-    text-decoration: none;
-    color: black;
+    transition: background .5s, color .5s;
 }
-.link a:hover{
+.mailme form input[type=submit]:hover{
     background: #242424;
     color: white;
+    cursor: pointer;
 }
+.mailme form textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    resize: none;
+}
+
+
 /* desktop's version */
 @media only screen and (min-width: 900px){
     .nav_bar{
