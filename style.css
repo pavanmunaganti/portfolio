@@ -156,7 +156,7 @@ hr{
 }
 .timeline{
     margin-left: 10%;
-    border-left: 4px solid  #263959;
+    border-left: 4px solid  #242424;
 }
 .pointer{
     width: 30px;
@@ -283,12 +283,12 @@ hr{
 }
 .mailme form input {
     width: 100%;
-    padding: 5px;
+    padding: 5px 0px 5px 5px;
     border: none;
-    margin: 5px;
+    margin: 5px 0px;
 }
 .mailme form input[type=submit]{
-    width: 103%;
+    width: 102%;
     font-size: 16px;
     background: white;
     padding: 10px;
@@ -303,8 +303,8 @@ hr{
 }
 .mailme form textarea {
     width: 100%;
-    padding: 5px;
-    margin: 5px;
+    padding: 5px 0px 5px 5px;
+    margin: 5px 0px;
     border: none;
     resize: none;
 }
@@ -388,6 +388,9 @@ hr{
     .development_tools div img{
         margin: 30px 30px;
         width: 50px;
+    }
+    .mailme form{
+        width: 80%;
     }
 
 }
